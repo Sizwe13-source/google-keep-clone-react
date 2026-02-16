@@ -1,0 +1,24 @@
+/* COLOR PICKER */
+.color-picker {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.color-option {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s ease;
+}
+
+.color-option:hover {
+  transform: scale(1.18);
+}
+
+.color-option.active-ring {
+  box-shadow: 0 0 0 2px #1a73e8 inset;
+}

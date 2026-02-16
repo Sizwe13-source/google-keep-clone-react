@@ -1,0 +1,9 @@
+/* NOTES GRID */
+.notes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+  padding: 16px 24px;
+  max-width: 1200px;
+  margin: 0 auto 64px;
+}
