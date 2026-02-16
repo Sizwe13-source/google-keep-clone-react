@@ -24,7 +24,6 @@ If it doesn't open automatically, copy and paste the link into your browser.
 
 ---
 
-
 Each component has its own folder containing:
 - JSX file
 - CSS file
