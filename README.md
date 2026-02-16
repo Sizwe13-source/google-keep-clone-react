@@ -1,10 +1,7 @@
 # Google Keep Clone (React - Create React App)
 
-This project is a simplified Google Keep clone built using React and Create React App (CRA).
+This project is a simplified Google Keep clone built using React
 It allows users to create, edit, archive, delete, search, and color notes.
-Notes are stored in localStorage so they persist after page refresh.
-
----
 
 ## 🚀 How to Run the Project
 
@@ -27,25 +24,6 @@ If it doesn't open automatically, copy and paste the link into your browser.
 
 ---
 
-## 📁 Project Structure
-
-src/
-│
-├── components/
-│   ├── Navbar/
-│   ├── Sidebar/
-│   ├── NoteForm/
-│   ├── Notes/
-│   ├── NoteCard/
-│   ├── Modal/
-│   ├── ColorPicker/
-│   └── UI/ (shared styles like tooltip + hover)
-│
-├── utils/
-│   └── storage.js (handles localStorage logic)
-│
-├── App.js
-└── index.js
 
 Each component has its own folder containing:
 - JSX file
@@ -89,28 +67,4 @@ This keeps the project clean and easy to maintain.
 
 ---
 
-## 📦 Build for Production
 
-To create a production build:
-
-    npm run build
-
-The optimized build will be inside the `build` folder.
-
----
-
-## 📝 Notes
-
-This project was built for learning purposes to practice:
-- React fundamentals
-- useState hook
-- Props and component communication
-- Lifting state up
-- Component folder organization
-- JSX best practices
-
----
-
-If you have any issues running the project, ensure Node.js (v14 or higher) is installed.
-
-Enjoy building 🚀
